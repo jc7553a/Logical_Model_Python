@@ -90,7 +90,7 @@ num_states = 3
 stateSpace_size = num_states**num_nodes
 length = 5
 mySet = set()
-attractor_table
+#attractor_table
 
 
 def starting():
