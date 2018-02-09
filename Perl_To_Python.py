@@ -90,7 +90,7 @@ num_states = 3
 stateSpace_size = num_states**num_nodes
 length = 5
 mySet = set()
-#attractor_table
+attractor_table = {}
 
 
 def starting():
@@ -134,7 +134,6 @@ def starting():
 if __name__ == '__main__':
     for i in range(len(functions)):
         functions[i] = (convertFunction(functions[i]+'+0'))
-
     starting()
   
     
